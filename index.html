@@ -1,0 +1,33 @@
+<!--A Gamified task web app that allow you to stay focus and motivated so enjoy this web app cause I think it can help or make you smile.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamified Level Up Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="task-app">
+            <h1>Gamified Level Up your Tasks App</h1>
+            <div class="task-input">
+                <input type="text" id="taskText" placeholder="Enter a new task here..." />
+                <button id="addTaskBtn">Add a Task</button>
+              </div>
+              <ul id="taskList"></ul>
+              <div class="xp-tracker">
+                <p>XP: <span id="xp">0</span> | Level: <span id="level">1</span></p>
+                <progress id="xpBar" value="0" max="100"></progress>
+              </div>
+            </div>
+        <div class="quote-container">
+            <p id="quote-text">
+             Ready to Level Up? you can do it!
+            </p> 
+        </div>
+    <div class="gif-container">
+        <div id="gif-container"></div>
+    </div>
+    </body>
+    <script src="script.js"></script>
+</html>
