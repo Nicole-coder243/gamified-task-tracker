@@ -55,7 +55,7 @@ function showRandomQuote() {
 }
 
 const gifContainer = document.getElementById("gif-container");
-const GIPHY_API_KEY = "SWkpqZgOCia5uQgUj4X1vU3GWQPLfHCI"; // Replace with your key
+const GIPHY_API_KEY = "SWkpqZgOCia5uQgUj4X1vU3GWQPLfHCI"; 
 
 function showMotivationalGif() {
   const query = "motivational";
@@ -90,3 +90,4 @@ addTaskBtn.addEventListener("click", () => {
         taskText.value = ""; // Clear input field
     }
 });
+
