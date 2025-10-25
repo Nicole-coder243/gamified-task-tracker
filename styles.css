@@ -140,18 +140,18 @@ progress::-webkit-progress-value {
 
 @media (max-width: 600px) {
   body {
-    flex-direction: column; /* stack everything */
-    align-items: center;
-    padding-top: 1rem;
+    flex-direction: column;   /* forces stacking */
+    align-items: center;      /* keeps everything centered horizontally */
+    padding-top: 1rem;        /* adds breathing room */
   }
 
   .task-app {
     width: 95%;
-    margin-bottom: 1.5rem; /* space before the gif */
+    margin-bottom: 1.5rem;    /* space before gif */
   }
 
   .gif-container {
     width: 95%;
-    margin-top: 0;
+    margin-top: 0;            /* resets if any extra margin exists */
   }
 }
