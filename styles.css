@@ -140,62 +140,18 @@ progress::-webkit-progress-value {
 
 @media (max-width: 600px) {
   body {
-    padding-top: 1.5rem;
+    flex-direction: column; /* stack everything */
     align-items: center;
+    padding-top: 1rem;
   }
 
   .task-app {
     width: 95%;
-    padding: 1rem;
-    border-radius: 12px;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
-
-  .task-input {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5rem;
-  }
-
-  #taskText {
-    width: 100%;
-    padding: 0.8rem;
-    font-size: 1rem;
-  }
-
-  #addTaskBtn {
-    width: 100%;
-    margin-top: 0.5rem;
-    padding: 0.8rem;
-    font-size: 1rem;
-  }
-
-  ul#taskList li {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-    word-wrap: break-word;
-  }
-
-  .quote-container {
-    margin-top: 1.5rem;
-    font-size: 0.95rem;
-    padding: 0.8rem;
-  }
-
-  .xp-tracker {
-    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; /* space before the gif */
   }
 
   .gif-container {
-    margin-top: 1.5rem;
+    width: 95%;
+    margin-top: 0;
   }
 }
-
-
-
-
