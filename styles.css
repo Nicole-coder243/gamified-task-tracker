@@ -138,7 +138,7 @@ progress::-webkit-progress-value {
     }
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     .task-app {
         width: 95%;
         padding: 1rem;
@@ -151,4 +151,57 @@ progress::-webkit-progress-value {
         margin-top: 1rem;
         padding: 0.4rem 0.8rem;
     }
-}
+}*/
+
+
+@media (max-width: 750px) {
+  .task-app,
+  .gif-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Task input stacks: text field on top, button full width below */
+  .task-input {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+  }
+  #addTaskBtn {
+    width: 100%;
+    margin: 0;
+    padding: 0.6rem;
+  }
+  #taskText {
+    width: 100%;
+  }
+
+ 
+  .task-app {
+    width: 95%;
+    padding: 1rem;
+  }
+
+
+  .gif-container {
+    width: 95%;
+    margin-top: 1rem;
+    gap: 0.75rem;
+  }
+  .gif-container img,
+  .gif-box img {
+    max-width: 100%;
+    height: auto;           
+    max-height: 360px;      \
+    object-fit: contain;    
+    border-radius: 12px;
+  }
+
+  h1 { 
+    font-size: 1.6rem; 
+    margin-bottom: 12px;
+     }
+  body { 
+      padding-top: 20px;
+      
+       }
